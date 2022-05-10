@@ -234,24 +234,24 @@ function greetWorld(){
 ## Default Parameters
 > Default parameters allow parameters to have a predetermined value in case there is no argument passed into the function or if the argument is `undefined` when called.
 
-```javascript
-function greeting (name = 'stranger') {  
- console.log(`Hello, ${name}!`)  
-}  
-  
-greeting('Nick') // Output: Hello, Nick!  
-greeting() // Output: Hello, stranger!
-```
+> ```javascript
+> function greeting (name = 'stranger') {  
+>  console.log(`Hello, ${name}!`)  
+> }  
+>   
+> greeting('Nick') // Output: Hello, Nick!  
+> greeting() // Output: Hello, stranger!
+> ```
 
 > If in case you want to give value to 1, 3 but want to keep the 2nd variable _default_. You can use `undefined` for the 2nd variable
-> ```javascript
+```javascript
 function makeShoppingList(item1='milk', item2='bread', item3='eggs'){
  console.log(`Remember to buy ${item1}`);
  console.log(`Remember to buy ${item2}`);
  console.log(`Remember to buy ${item3}`);
 }
 makeShoppingList('almonds',undefined,'chicken')
-> ```
+```
 
 ## Return
 
@@ -339,10 +339,10 @@ const sumNumbers = number => number + number;
 > Note the `return` keyword has been removed since the function consists of a single-line block 
 
 # Scope
-Defining the scope of a variable and other 
+Defining the scope of a variable and other stuff
 ## Blocks and Scope
 
-A block is set on instructions defined in `{}`. A function has a block, an if statement has a block.
+A block is set of instructions defined in `{}`. A function has a block, an if statement has a block.
 
 > It is preferable to have one variable outside of a block and the other inside of a block, because it will then be global and thus can be accessed by any piece of code.
 
@@ -387,7 +387,7 @@ let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to 
 
 ## Accessing Elements
 
-![[Pasted image 20220111193441.png]]
+*There was an image here*
 
 > You can also access individual characters in a string.
 > 
