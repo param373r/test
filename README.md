@@ -12,9 +12,9 @@
 > The first 6 are more of a primitive data types. Objects are different
 
 ## Arithmetic Operators
-- + 
-- -
-- * (multiply)
+- \+ 
+- \-
+- \* (multiply)
 - /
 - % (remainder; known as the modulo)
 
